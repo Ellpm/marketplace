@@ -1,0 +1,13 @@
+
+.col {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.leftMenu {
+  width: 20%;
+}
+
+.mainBlock {
+  width: 75%;
+}

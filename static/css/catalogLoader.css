@@ -1,0 +1,30 @@
+.catalogLoaderProduct {
+  display: inline-block;
+  margin-left: 30px;
+  width: 20%;
+  min-width: 200px;
+  height: 250px;
+  background: #eeeeee;
+  border-radius: 2px;
+  vertical-align: top;
+}
+
+.blink-1 {
+  animation-name: blink;
+  animation-timing-function: linear;
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+}
+
+.blink-2 {
+  animation-name: blink;
+  animation-timing-function: linear;
+  animation-duration: 2.4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

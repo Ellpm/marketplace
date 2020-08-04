@@ -1,0 +1,3 @@
+
+export const CREATE_PROMO = 'CREATE_PROMO'
+export const LOAD_ALL_PROMOCODES = 'LOAD_ALL_PROMOCODES'
